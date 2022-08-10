@@ -93,7 +93,7 @@ public class Phone {
       Pattern p=Pattern.compile("^[0-9]{3}$");
       Matcher m=p.matcher(exchange);
          throw(new Exception("Invalid value!! Expects a 3-digit number"));
-      this.exchange = exchange;
+      // this.exchange = exchange;
    }
    /**
     * Gets the extension code

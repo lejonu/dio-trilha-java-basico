@@ -1,0 +1,78 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch AboutMe",
+      "request": "launch",
+      "mainClass": "AboutMe",
+      "args": ["Leo", "Jose", "49", "1.72"],
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch Concatenacao",
+      "request": "launch",
+      "mainClass": "edu.leonardo.concatenacao.Concatenacao",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch NomeCompleto",
+      "request": "launch",
+      "mainClass": "edu.leonardo.nomecompleto.NomeCompleto",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch Logicos",
+      "request": "launch",
+      "mainClass": "edu.leonardo.operadores.logicos.Logicos",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch Relacionais",
+      "request": "launch",
+      "mainClass": "edu.leonardo.operadores.relacionais.Relacionais",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ternario",
+      "request": "launch",
+      "mainClass": "edu.leonardo.operadores.ternario.Ternario",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch Unarios",
+      "request": "launch",
+      "mainClass": "edu.leonardo.operadores.unarios.Unarios",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinhaClasse",
+      "request": "launch",
+      "mainClass": "edu.leonardo.primeiraclasse.MinhaClasse",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
+      "name": "Launch TiposVariaveis",
+      "request": "launch",
+      "mainClass": "edu.leonardo.tiposdevariaveis.TiposVariaveis",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    }
+  ]
+}
