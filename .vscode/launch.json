@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch EntradaScanner",
+      "request": "launch",
+      "mainClass": "EntradaScanner",
+      "projectName": "dio-trilha-java-basico_1c259d27"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
