@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch AboutMe",
+      "request": "launch",
+      "mainClass": "edu.leonardo.excecoes.AboutMe",
+      "projectName": "dio-trilha-java-basico_d9a7238d"
+    },
+    {
+      "type": "java",
       "name": "Launch EntradaScanner",
       "request": "launch",
       "mainClass": "EntradaScanner",
