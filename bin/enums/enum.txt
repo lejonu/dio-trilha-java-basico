@@ -1,0 +1,29 @@
+Um tipo especial de classe na qual os objetos são previamente criados. Eles são 
+imutáveis e disponíveis por toda aplicação.
+
+Exemplos:
+Grau de Escolaridade: Fundamental, Médio, Superior
+Estados: Minas Gerais, São Paulo, etc...
+Estado Civil: Solteiro, Casado, Divorciado, Viúvo
+
+Não confunda lista de constantes com enum.
+
+Ex. A lista de estados conterá 27 objetos com seus atributos e não 27 constantes.
+
+public enum EstadoBrasileiro {
+  SAO_PAULO ("SP", "São Paulo"),
+  MINAS_GERAIS("MG", "Minas Gerias"),
+  PIAUI ("PI", "Piauí"),
+  MARANHAO ("MA", "Maranhão");
+
+  private String sigla;
+  private String nome;
+
+  public String getSigla() {
+    return sigla;
+  }
+
+  public String setSigla(String sigla) {
+    this.sigla = sigla.toUpperCase();
+  }
+}
