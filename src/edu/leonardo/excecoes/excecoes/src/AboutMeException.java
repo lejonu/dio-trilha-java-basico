@@ -1,3 +1,5 @@
+package edu.leonardo.excecoes.excecoes.src;
+
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;

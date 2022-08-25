@@ -1,3 +1,5 @@
+package edu.leonardo.repeticao.repeticao.src;
+
 public class App {
     public static void main(String[] args) throws Exception {
         for(int i = 0; i < 10; i++)

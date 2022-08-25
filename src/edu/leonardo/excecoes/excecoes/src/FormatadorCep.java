@@ -1,3 +1,5 @@
+package edu.leonardo.excecoes.excecoes.src;
+
 public class FormatadorCep {
   public static void main(String[] args) {
     // Exception - Exige tratamento.

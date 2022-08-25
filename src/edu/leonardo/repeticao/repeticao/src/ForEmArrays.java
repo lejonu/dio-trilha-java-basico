@@ -1,3 +1,5 @@
+package edu.leonardo.repeticao.repeticao.src;
+
 public class ForEmArrays {
 
   public static String mensagem(String aluno, int nota) {

@@ -1,0 +1,33 @@
+Nomenclatura
+Empresa Powersoft
+
+Comercial: com.powersoft
+Governamental: gov.powesoft
+Código Aberto: org.powersoft
+
+model: Classes que represental a camada e modelo da aplicação
+
+repository: Classes ou interfaces que possuem a finalidade de interagir 
+com tabelas no banco de dados
+
+service: Classes que contém regras de negócio do sistema. 
+
+controller: Classes que possuem a finalidade de disponibilizar os nossos
+recursos da aplicação para outras aplicações via padrão HTTP
+
+view: classes que possuem alguma interação com a interace gráfica acessada
+pelo usuário.
+
+util: Pacote que contém classes utilitárias do sistema
+
+Order de chamada no programa:
+
+package ...
+
+import ...
+import ...
+
+public class MinhaClasse {
+  
+}
+

@@ -90,8 +90,8 @@ public class Phone {
     */
 
    public void setExchange(String exchange) throws Exception {
-      Pattern p=Pattern.compile("^[0-9]{3}$");
-      Matcher m=p.matcher(exchange);
+      // Pattern p=Pattern.compile("^[0-9]{3}$");
+      // Matcher m=p.matcher(exchange);
          throw(new Exception("Invalid value!! Expects a 3-digit number"));
       // this.exchange = exchange;
    }

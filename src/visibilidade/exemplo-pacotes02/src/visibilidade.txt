@@ -1,0 +1,6 @@
+default(sem modificador) - restringe a visibilidade por pacotes
+private - exclusivo da própria classe
+public - visível por toda a aplicação
+
+
+
